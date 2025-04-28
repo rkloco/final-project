@@ -1,3 +1,5 @@
+import java.util.List;
+
 public interface AIDS {
 
     /**
@@ -7,7 +9,7 @@ public interface AIDS {
     * @param value The exact value to match
     * @return A collection of records matching the criteria
     */
-    List<T> findDeaths(String attribute, Object value);
+    List<AIDSDeathRecord> findDeaths(String attribute, Object value);
 
     /**
     * Returns all records where the specified attribute falls
@@ -17,7 +19,7 @@ public interface AIDS {
     * @param upperBound The upper bound of the range (inclusive)
     * @return A collection of records matching the criteria
     */
-    List<T> findDeathsInYearRange(String country, int lowerBound, int upperBound);
+    List<AIDSDeathRecord> findDeathsInYearRange(String country, int lowerBound, int upperBound);
 
     /**
     * Returns the average value of the specified attribute during
@@ -26,5 +28,5 @@ public interface AIDS {
     * @param startTime The start time of the period (inclusive)
     * @param endTime The end time of the period (inclusive)
     * @return The statistic calculated */
-    List<T> averageDeathsPerYear(String country, int startYear, int endYear);
+    List<AIDSDeathRecord> averageDeathsPerYear(String country, int startYear, int endYear);
 }
