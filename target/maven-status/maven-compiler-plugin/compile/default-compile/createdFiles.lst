@@ -1,3 +1,4 @@
-src\main\java\AIDS.class
-src\main\java\AIDSDeathRecord.class
-src\main\java\AIDSImpl.class
+AIDSDeathRecord.class
+AIDSImpl.class
+Main.class
+AIDS.class

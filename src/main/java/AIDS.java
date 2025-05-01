@@ -3,6 +3,12 @@ import java.util.List;
 public interface AIDS {
 
     /**
+     * Loads data from a CSV file into the implementation.
+     * @param csvFilePath The path to the CSV file containing AIDS death records
+     */
+    void loadData(String csvFilePath);
+
+    /**
     * Returns all records that exactly match the specified
     criteria.
     * @param attribute The attribute/field to query on

@@ -7,20 +7,19 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class AIDSTest {
-    private AIDS aids;
+    private AIDS aidsData;
 
     @Before
     public void setUp() {
-        System.out.println("\nSetting up test environment...");
-        aids = new AIDSImpl("aids.csv");
-        System.out.println("Test environment ready.");
+        aidsData = new AIDSImpl();
+        aidsData.loadData("aids.csv");
     }
 
     @Test
     public void testFindDeathsByCountry() {
         System.out.println("\nTesting findDeaths by country...");
         String country = "Uganda";
-        List<AIDSDeathRecord> deaths = aids.findDeaths("country", country);
+        List<AIDSDeathRecord> deaths = aidsData.findDeaths("country", country);
         
         System.out.println("Found " + deaths.size() + " records for " + country);
         assertFalse("Should find records for " + country, deaths.isEmpty());
@@ -36,7 +35,7 @@ public class AIDSTest {
     public void testFindDeathsByYear() {
         System.out.println("\nTesting findDeaths by year...");
         int year = 1990;
-        List<AIDSDeathRecord> deaths = aids.findDeaths("year", year);
+        List<AIDSDeathRecord> deaths = aidsData.findDeaths("year", year);
         
         System.out.println("Found " + deaths.size() + " records for year " + year);
         assertFalse("Should find records for year " + year, deaths.isEmpty());
@@ -52,7 +51,7 @@ public class AIDSTest {
     public void testFindDeathsByDeathType() {
         System.out.println("\nTesting findDeaths by death type...");
         int deathCount = 100;
-        List<AIDSDeathRecord> deaths = aids.findDeaths("adultdeaths", deathCount);
+        List<AIDSDeathRecord> deaths = aidsData.findDeaths("adultdeaths", deathCount);
         
         System.out.println("Found " + deaths.size() + " records with " + deathCount + " adult deaths");
         assertFalse("Should find records with " + deathCount + " adult deaths", deaths.isEmpty());
@@ -72,7 +71,7 @@ public class AIDSTest {
         int startYear = 1990;
         int endYear = 1995;
         
-        List<AIDSDeathRecord> deaths = aids.findDeathsInYearRange(country, startYear, endYear);
+        List<AIDSDeathRecord> deaths = aidsData.findDeathsInYearRange(country, startYear, endYear);
         System.out.println("Found " + deaths.size() + " records for " + country + 
                          " between " + startYear + " and " + endYear);
         
@@ -95,7 +94,7 @@ public class AIDSTest {
         int startYear = 1990;
         int endYear = 1995;
         
-        List<AIDSDeathRecord> averages = aids.averageDeathsPerYear(country, startYear, endYear);
+        List<AIDSDeathRecord> averages = aidsData.averageDeathsPerYear(country, startYear, endYear);
         System.out.println("Calculated averages for " + averages.size() + " years");
         
         assertFalse("Should calculate averages for " + country + " between " + startYear + 
@@ -118,19 +117,19 @@ public class AIDSTest {
         // Test non-existent country
         String nonExistentCountry = "NonExistentCountry";
         System.out.println("Testing non-existent country: " + nonExistentCountry);
-        List<AIDSDeathRecord> deaths = aids.findDeaths("country", nonExistentCountry);
+        List<AIDSDeathRecord> deaths = aidsData.findDeaths("country", nonExistentCountry);
         assertTrue("Should return empty list for non-existent country", deaths.isEmpty());
         System.out.println("Verified empty result for non-existent country");
         
         // Test year range with no data
         System.out.println("Testing year range with no data (1800-1850)");
-        List<AIDSDeathRecord> yearRangeDeaths = aids.findDeathsInYearRange("Uganda", 1800, 1850);
+        List<AIDSDeathRecord> yearRangeDeaths = aidsData.findDeathsInYearRange("Uganda", 1800, 1850);
         assertTrue("Should return empty list for year range with no data", yearRangeDeaths.isEmpty());
         System.out.println("Verified empty result for year range with no data");
         
         // Test invalid attribute
         System.out.println("Testing invalid attribute");
-        List<AIDSDeathRecord> invalidDeaths = aids.findDeaths("invalidAttribute", 100);
+        List<AIDSDeathRecord> invalidDeaths = aidsData.findDeaths("invalidAttribute", 100);
         assertTrue("Should return empty list for invalid attribute", invalidDeaths.isEmpty());
         System.out.println("Verified empty result for invalid attribute");
         

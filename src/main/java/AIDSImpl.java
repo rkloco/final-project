@@ -11,14 +11,14 @@ public class AIDSImpl implements AIDS {
     private Map<String, List<AIDSDeathRecord>> countryIndex;
     private Map<Integer, List<AIDSDeathRecord>> yearIndex;
 
-    public AIDSImpl(String csvFilePath) {
+    public AIDSImpl() {
         records = new ArrayList<>();
         countryIndex = new HashMap<>();
         yearIndex = new HashMap<>();
-        loadData(csvFilePath);
     }
 
-    private void loadData(String csvFilePath) {
+    @Override
+    public void loadData(String csvFilePath) {
         try (BufferedReader br = new BufferedReader(new FileReader(csvFilePath))) {
             String line;
             // Skip header

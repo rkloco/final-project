@@ -1,0 +1,22 @@
+mvn clean install
+
+All records verified for death count 100
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 s - in AIDSTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jar:3.2.0:jar (default-jar) @ aids-data ---
+[INFO] Building jar: /Users/rkapur/CS 201/Final Project/final-project/target/aids-data-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ aids-data ---
+[INFO] Installing /Users/rkapur/CS 201/Final Project/final-project/pom.xml to /Users/rkapur/.m2/repository/com/aids/aids-data/1.0-SNAPSHOT/aids-data-1.0-SNAPSHOT.pom
+[INFO] Installing /Users/rkapur/CS 201/Final Project/final-project/target/aids-data-1.0-SNAPSHOT.jar to /Users/rkapur/.m2/repository/com/aids/aids-data/1.0-SNAPSHOT/aids-data-1.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.394 s
+[INFO] Finished at: 2025-05-01T00:39:27-04:00
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,46 @@
+java -jar target/aids-data-1.0-SNAPSHOT.jar               java -jar target/aids-data-1.0-SNAPSHOT.jar
+Deaths in Georgia:
+AIDSDeathRecord{country='Georgia', year=1990, aidsOrphans=100, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
+AIDSDeathRecord{country='Georgia', year=1991, aidsOrphans=100, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
+AIDSDeathRecord{country='Georgia', year=1992, aidsOrphans=100, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
+AIDSDeathRecord{country='Georgia', year=1993, aidsOrphans=100, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
+AIDSDeathRecord{country='Georgia', year=1994, aidsOrphans=100, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
+AIDSDeathRecord{country='Georgia', year=1995, aidsOrphans=100, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
+AIDSDeathRecord{country='Georgia', year=1996, aidsOrphans=100, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
+AIDSDeathRecord{country='Georgia', year=1997, aidsOrphans=100, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
+AIDSDeathRecord{country='Georgia', year=1998, aidsOrphans=100, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
+AIDSDeathRecord{country='Georgia', year=1999, aidsOrphans=100, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
+AIDSDeathRecord{country='Georgia', year=2000, aidsOrphans=100, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
+AIDSDeathRecord{country='Georgia', year=2001, aidsOrphans=100, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
+AIDSDeathRecord{country='Georgia', year=2002, aidsOrphans=100, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
+AIDSDeathRecord{country='Georgia', year=2003, aidsOrphans=100, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
+AIDSDeathRecord{country='Georgia', year=2004, aidsOrphans=100, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
+AIDSDeathRecord{country='Georgia', year=2005, aidsOrphans=100, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
+AIDSDeathRecord{country='Georgia', year=2006, aidsOrphans=100, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
+AIDSDeathRecord{country='Georgia', year=2007, aidsOrphans=100, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
+AIDSDeathRecord{country='Georgia', year=2008, aidsOrphans=100, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
+AIDSDeathRecord{country='Georgia', year=2009, aidsOrphans=100, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
+AIDSDeathRecord{country='Georgia', year=2010, aidsOrphans=100, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
+AIDSDeathRecord{country='Georgia', year=2011, aidsOrphans=100, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
+AIDSDeathRecord{country='Georgia', year=2012, aidsOrphans=100, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
+AIDSDeathRecord{country='Georgia', year=2013, aidsOrphans=100, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
+AIDSDeathRecord{country='Georgia', year=2014, aidsOrphans=200, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
+AIDSDeathRecord{country='Georgia', year=2015, aidsOrphans=200, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
+AIDSDeathRecord{country='Georgia', year=2016, aidsOrphans=200, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
+AIDSDeathRecord{country='Georgia', year=2017, aidsOrphans=500, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
+AIDSDeathRecord{country='Georgia', year=2018, aidsOrphans=500, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
+AIDSDeathRecord{country='Georgia', year=2019, aidsOrphans=500, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
+AIDSDeathRecord{country='Georgia', year=2020, aidsOrphans=500, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
+
+Deaths in Libya between 2010 and 2015:
+AIDSDeathRecord{country='Libya', year=2010, aidsOrphans=1000, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
+AIDSDeathRecord{country='Libya', year=2011, aidsOrphans=1000, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
+AIDSDeathRecord{country='Libya', year=2012, aidsOrphans=1000, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
+AIDSDeathRecord{country='Libya', year=2013, aidsOrphans=1000, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
+AIDSDeathRecord{country='Libya', year=2014, aidsOrphans=1000, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
+AIDSDeathRecord{country='Libya', year=2015, aidsOrphans=1000, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
+
+Average deaths per year in Armenia from 2018 to 2020:
+AIDSDeathRecord{country='Armenia', year=2018, aidsOrphans=1500, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
+AIDSDeathRecord{country='Armenia', year=2019, aidsOrphans=1500, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
+AIDSDeathRecord{country='Armenia', year=2020, aidsOrphans=1500, adultDeaths=100, allAgesDeaths=100, childrenDeaths=100, femaleAdultDeaths=100, maleAdultDeaths=100}
